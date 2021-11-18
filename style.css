@@ -830,6 +830,55 @@ textarea {
 
 /* End of Contact
 
+/* Invitations */
+
+.invitations {
+  padding: 40px 0px;
+  height: auto;
+  background-color: #000;
+}
+
+.invite-boxes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.invite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  margin: 0 20px;
+}
+.invite img {
+  height: 300px;
+}
+
+.invite p {
+  color: #fff;
+  text-shadow: 2px 2px 6px #000;
+  font-family: 'Wicked Mouse', sans-serif;
+  background-color: #7dfa00;
+  padding: 1em 2em;
+  border-radius: 30px;
+  width: 60%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.invite a {
+  text-decoration: none;
+  transition: 0.5s all;
+}
+
+.invite a:hover {
+  transform: scale(1.1);
+}
+
+/* End of Invitations */
+
 /* Footer */
 
 .footer {
