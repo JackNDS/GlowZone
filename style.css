@@ -1,6 +1,22 @@
 @import url(//db.onlinewebfonts.com/c/158e715d2cf42256101d89a4e7bc909e?family=Wicked+Mouse);
 @import url('http://fonts.cdnfonts.com/css/gotham');
 
+@font-face {
+
+  font-family: 'Wicked Mouse Demo';
+  
+  src: url('fonts/Wicked\ Mouse\ Demo.otf') format('otf'),
+  
+  url('fonts/Wicked\ Mouse\ Demo.otf') format('otf'),
+  
+  url('fonts/Wicked\ Mouse\ Demo.otf') format('truetype'),
+  
+  font-weight: normal;
+  
+  font-style: normal;
+  
+  }
+
 html {
   scroll-behavior: smooth;
 }
