@@ -1331,11 +1331,11 @@ textarea {
     font-size: 22px;
   }
   .packages {
-    height: 160vh;
+    height: 180vh;
   }
 
   .events {
-    height: 240vh;
+    height: 285vh;
   }
   .event-li1,
   .event-li2 {
@@ -1386,7 +1386,7 @@ textarea {
 
   .book {
     padding: 40px 0px;
-    height: 60vh;
+    height: 70vh;
   }
 
   .pkg-heading {
