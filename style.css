@@ -6,7 +6,9 @@
 
   src: url('fonts/Wicked\ Mouse\ Demo.otf') format('otf'),
     url('fonts/Wicked\ Mouse\ Demo.otf') format('otf'),
-    url('fonts/Wicked\ Mouse\ Demo.otf') format('truetype');
+    url('fonts/Wicked\ Mouse\ Demo.otf') format('truetype'),
+    url('fonts/Gotham\ Black.otf') format('oft'),
+    url('fonts/Gotham\ Black\ Regular.ttf') format('oft');
 
   font-weight: normal;
 
