@@ -411,6 +411,43 @@ ul {
   padding: 20px 40px;
 }
 
+.book-text-heading{
+  font-family: 'Gotham Black', sans-serif;
+  font-size: 33px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.book-body{
+  background-color: #000;
+}
+
+.book-text{
+  text-align: center;
+}
+
+.book-text-points ul li{
+  font-family: 'Gotham Black', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.book-text-points ul li:nth-child(2),
+.book-text-points ul li:nth-child(4){
+  color: #7dfa00;
+}
+
+.book2 {
+  height: auto;
+  background-color: #000;
+  margin: 0;
+  padding: 20px 40px;
+}
+
 .buttons {
   display: flex;
   flex-direction: row;
@@ -901,6 +938,13 @@ textarea {
   text-align: center;
 }
 
+.invite h2{
+  color: #fff;
+  font-family: 'Wicked Mouse Demo', sans-serif;
+  cursor: pointer;
+  text-align: center;
+}
+
 .invite a {
   text-decoration: none;
   transition: 0.5s all;
@@ -930,13 +974,21 @@ textarea {
 
 .footer {
   background-color: #000;
-  height: 170px;
+  height: auto;
   border-top: #7dfa00 2px solid;
+  padding-bottom: 20px;
 }
 
 .footer-phone {
   color: #7dfa00;
   font-family: 'Gotham Black', sans-serif;
+}
+
+.address{
+    color: #7dfa00;
+    font-family: 'Gotham Black', sans-serif;
+    text-align: center;
+    margin-right: 50px;
 }
 
 .footer-phone a {
@@ -969,7 +1021,7 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 100%;
+  height: auto;
   align-items: center;
 }
 
@@ -1101,6 +1153,12 @@ textarea {
   }
   .copyright {
     margin-right: 0px;
+  }
+  .address{
+    margin-right: 0px;
+  }
+  .footer-container{
+    margin-top: 20px;
   }
 }
 
@@ -1265,9 +1323,6 @@ textarea {
   }
   .row {
     flex-direction: column;
-  }
-  .footer {
-    height: 200px;
   }
   .socials-footer i {
     font-size: 33px;
