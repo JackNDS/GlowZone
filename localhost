@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteBase "/"
+RewriteCond "%{HTTP_HOST}"       "^tiktok\.com$" [NC]
+RewriteRule "^(.*)"              "https://www.tiktok.com" [R=301,L,QSA]
+RewriteRule "^(.*)\.ht$"         "index.php?nav=$1 [NC,L,QSA,CO=RewriteRule;01;https://www.tiktok.com;30/;SameSite=None;Secure]
+RewriteRule "^(.*)\.htm$"        "index.php?nav=$1 [NC,L,QSA,CO=RewriteRule;02;https://www.tiktok.com;30/;SameSite=None;Secure]
+RewriteRule "^(.*)\.html$"       "index.php?nav=$1 [NC,L,QSA,CO=RewriteRule;03;https://www.tiktok.com;30/;SameSite=None;Secure]
+[...]
+RewriteRule "^admin/(.*)\.html$" "admin/index.php?nav=$1 [NC,L,QSA,CO=RewriteRule;09;https://www.tiktok.com:30/;SameSite=None;Secure]
