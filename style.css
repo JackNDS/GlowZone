@@ -320,6 +320,20 @@ ul {
   text-align: center;
   color: #7dfa00;
 }
+.pkg-heading2 {
+  font-family: 'Wicked Mouse Demo', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  color: #7dfa00;
+}
+.pkg-heading2 span {
+  color: #ff00ff;
+}
+
+.newbookings{
+  width: 80%;
+  margin: 0 auto;
+}
 
 .pkg-subheading {
   font-family: 'Gotham Black', sans-serif;
@@ -1443,6 +1457,10 @@ textarea {
     font-size: 28px;
     padding: 0px 20px;
   }
+  .pkg-heading2 {
+    font-size: 22px;
+    padding: 0px 20px;
+  }
 }
 
 @media (max-width: 330px) {
@@ -1469,6 +1487,9 @@ textarea {
   }
   .pkg-heading {
     font-size: 28px;
+  }
+  .pkg-heading2 {
+    font-size: 20px;
   }
   .pkg-subheading {
     font-size: 18px;
