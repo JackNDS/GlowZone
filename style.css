@@ -330,7 +330,7 @@ ul {
   color: #ff00ff;
 }
 
-.newbookings{
+.newbookings {
   width: 80%;
   margin: 0 auto;
 }
@@ -369,6 +369,28 @@ ul {
 }
 
 /* Packages Section End */
+
+/* Terms */
+.invitations.terms-new {
+  height: auto;
+}
+
+.terms h2 {
+  font-family: verdana, sans-serif !important;
+  color: white;
+  text-align: center;
+}
+
+.terms img {
+  width: 220px;
+  object-fit: contain;
+  padding: 0;
+  margin: 0;
+}
+
+.invite.terms img {
+  height: 100px;
+}
 
 /* Events Section Start */
 .events {
@@ -425,22 +447,22 @@ ul {
   padding: 20px 40px;
 }
 
-.book-text-heading{
+.book-text-heading {
   font-family: 'Gotham Black', sans-serif;
   font-size: 33px;
   text-align: center;
   color: #fff;
   margin-bottom: 40px;
 }
-.book-body{
+.book-body {
   background-color: #000;
 }
 
-.book-text{
+.book-text {
   text-align: center;
 }
 
-.book-text-points ul li{
+.book-text-points ul li {
   font-family: 'Gotham Black', sans-serif;
   font-size: 20px;
   text-align: center;
@@ -451,7 +473,7 @@ ul {
 }
 
 .book-text-points ul li:nth-child(2),
-.book-text-points ul li:nth-child(4){
+.book-text-points ul li:nth-child(4) {
   color: #7dfa00;
 }
 
@@ -506,7 +528,7 @@ ul {
   text-shadow: 2px 2px 3px #000;
 }
 
-.button22{
+.button22 {
   display: flex;
   margin-top: 20px;
   transition: all 0.5s;
@@ -952,7 +974,7 @@ textarea {
   text-align: center;
 }
 
-.invite h2{
+.invite h2 {
   color: #fff;
   font-family: 'Wicked Mouse Demo', sans-serif;
   cursor: pointer;
@@ -998,11 +1020,11 @@ textarea {
   font-family: 'Gotham Black', sans-serif;
 }
 
-.address{
-    color: #7dfa00;
-    font-family: 'Gotham Black', sans-serif;
-    text-align: center;
-    margin-right: 50px;
+.address {
+  color: #7dfa00;
+  font-family: 'Gotham Black', sans-serif;
+  text-align: center;
+  margin-right: 50px;
 }
 
 .footer-phone a {
@@ -1077,7 +1099,6 @@ textarea {
   .pkg-img {
     width: 400px;
   }
-  
 
   .accordionTitle:before {
     font-size: 1.2em;
@@ -1103,7 +1124,7 @@ textarea {
   .container {
     max-width: 650px;
   }
- 
+
   .accordionTitle:before {
     font-size: 1.2em;
   }
@@ -1144,8 +1165,6 @@ textarea {
     flex-direction: column;
     align-items: center;
   }
- 
-
 
   .container {
     max-width: 550px;
@@ -1168,10 +1187,10 @@ textarea {
   .copyright {
     margin-right: 0px;
   }
-  .address{
+  .address {
     margin-right: 0px;
   }
-  .footer-container{
+  .footer-container {
     margin-top: 20px;
   }
 }
@@ -1184,10 +1203,8 @@ textarea {
     font-size: 25px;
   }
   .events {
-   
     padding: 40px 0px;
   }
-
 }
 @media (max-width: 768px) {
   .burger {
@@ -1352,7 +1369,6 @@ textarea {
 }
 
 @media (max-width: 600px) {
-
   .button2 a,
   .button1 a,
   .button3 a {
@@ -1399,8 +1415,6 @@ textarea {
     font-size: 22px;
   }
 
-
- 
   .event-li1,
   .event-li2 {
     font-size: 20px;
@@ -1450,7 +1464,6 @@ textarea {
 
   .book {
     padding: 40px 0px;
-    
   }
 
   .pkg-heading {
@@ -1481,7 +1494,7 @@ textarea {
     width: 170px;
     padding-left: 10px;
   }
- 
+
   .pkg-img {
     width: 240px;
   }
@@ -1507,14 +1520,14 @@ textarea {
     line-height: 1.75em;
   }
 
-  .box1 li{
+  .box1 li {
     font-size: 16px;
   }
-  .box2 li{
+  .box2 li {
     font-size: 16px;
     padding: 0px 20px;
   }
-  .box2{
+  .box2 {
     align-items: center;
     justify-content: center;
   }
@@ -1525,5 +1538,4 @@ textarea {
     padding: 0.2em, 0.75em;
     font-size: 14px;
   }
-
 }
