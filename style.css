@@ -453,7 +453,7 @@ ul {
   font-size: 33px;
   text-align: center;
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .book-body {
   background-color: #000;
@@ -465,12 +465,12 @@ ul {
 
 .book-text-points ul li {
   font-family: 'Metropolis', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   text-align: center;
   color: #fff;
   text-decoration: none;
   list-style: none;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .book-text-points ul li:nth-child(2),
